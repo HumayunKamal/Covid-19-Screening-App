@@ -1,0 +1,112 @@
+/* ////////////////////
+//// general */
+.logo {
+  width: 65px;
+}
+.covid19girlscreen {
+  /* width: 100%; */
+  height: 270px;
+}
+.main {
+  background-color: #e9ecef;
+}
+.facts img {
+  width: 60px;
+}
+.facts .border-bottom {
+  /* border: black; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+  width: 100%;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+.modal-body a {
+  color: #333;
+}
+.modal-header {
+  border-bottom-color: #e9ecef;
+  background-color: #e9ecef;
+  height: 65px;
+}
+.modal-header .img-logo {
+  position: relative;
+  width: 65px;
+  top: 20px;
+}
+.modal-body h3 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+.question img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 250px;
+  margin: 30px auto;
+}
+
+.modal-dialog {
+  /* position: fixed; */
+  width: auto;
+  margin: 0px auto;
+  /* pointer-events: none; */
+  height: 100%;
+  background: white;
+}
+
+.question .btn {
+  width: 100%;
+  /* display: block; */
+}
+.question .btn:first-child {
+  margin-bottom: 10px;
+}
+
+/* .bottom-question {
+  position: fixed;
+  bottom: 31px;
+  width: 83%;
+} */
+.question .row {
+  display: none;
+}
+.question .active {
+  display: block;
+}
+
+/* ////////////////////
+//// Media Queries */
+
+/*//// For Tab */
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 3rem 8rem !important;
+  }
+  .footer {
+    padding: 3rem 8rem !important;
+  }
+  .facts img {
+    width: 80px;
+  }
+  .covid19girlscreen {
+    /* width: 100%; */
+    height: 300px;
+    align-self: flex-start;
+  }
+}
+/*//// For Mobile */
+@media screen and (max-width: 360px) {
+  .facts img {
+    width: 40px;
+  }
+  .covid19girlscreen {
+    /* width: 100%; */
+    height: 250px;
+  }
+}
